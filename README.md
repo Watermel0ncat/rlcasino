@@ -1,4 +1,4 @@
-# Million Dollar Mansion Casino
+# Million Dollar Mansion Casino (none of this stuff works)
 
 A browser-based casino tycoon game inspired by roguelike deckbuilders and economic simulators.
 
@@ -96,38 +96,3 @@ Additional features:
 * Export save
 * Import save
 
----
-
-## Development Roadmap
-
-### v0.1
-
-* Core engine
-* Save system
-* Shop
-* Haggling
-* Blackjack
-
-### v0.2
-
-* Poker
-
-### v0.3
-
-* Roulette
-
-### v0.4
-
-* Craps
-
-### v0.5
-
-* Achievements
-* Events
-
-### v1.0
-
-* Prestige
-* Full balancing
-* Complete item pool
-* Mansion victory system
