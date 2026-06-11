@@ -1,0 +1,223 @@
+/* ==========================
+SHOP PANEL
+========================== */
+
+#shop-panel {
+
+```
+min-height: 500px;
+```
+
+}
+
+/* ==========================
+MARKET STATUS
+========================== */
+
+#market-status {
+
+```
+background: #141923;
+
+border: 1px solid var(--border);
+
+border-radius: 10px;
+
+padding: 15px;
+
+margin-bottom: 20px;
+
+font-size: 1.1rem;
+```
+
+}
+
+/* ==========================
+SHOP ITEM CARD
+========================== */
+
+.shop-item {
+
+```
+display: flex;
+
+flex-direction: column;
+
+gap: 10px;
+
+transition: .2s;
+```
+
+}
+
+.shop-item:hover {
+
+```
+transform: translateY(-4px);
+```
+
+}
+
+.shop-item h3 {
+
+```
+margin-bottom: 5px;
+```
+
+}
+
+.shop-item p {
+
+```
+color: var(--muted);
+```
+
+}
+
+/* ==========================
+RARITY BORDERS
+========================== */
+
+.rarity-common {
+
+```
+border-left: 5px solid #a0aec0;
+```
+
+}
+
+.rarity-uncommon {
+
+```
+border-left: 5px solid #3ddc84;
+```
+
+}
+
+.rarity-rare {
+
+```
+border-left: 5px solid #3b82f6;
+```
+
+}
+
+.rarity-epic {
+
+```
+border-left: 5px solid #a855f7;
+```
+
+}
+
+.rarity-legendary {
+
+```
+border-left: 5px solid #f7c948;
+```
+
+}
+
+/* ==========================
+SHOP BUTTONS
+========================== */
+
+.buy-btn {
+
+```
+background: var(--green);
+
+color: black;
+
+border: none;
+
+padding: 10px;
+
+font-weight: bold;
+
+cursor: pointer;
+```
+
+}
+
+.buy-btn:hover {
+
+```
+filter: brightness(1.1);
+```
+
+}
+
+.haggle-btn {
+
+```
+background: var(--gold);
+
+color: black;
+
+border: none;
+
+padding: 10px;
+
+cursor: pointer;
+
+font-weight: bold;
+```
+
+}
+
+.haggle-btn:hover {
+
+```
+filter: brightness(1.1);
+```
+
+}
+
+/* ==========================
+PRICE DISPLAY
+========================== */
+
+.item-price {
+
+```
+color: var(--gold);
+
+font-size: 1.2rem;
+
+font-weight: bold;
+```
+
+}
+
+/* ==========================
+INVENTORY
+========================== */
+
+.inventory-item {
+
+```
+background: #243148;
+
+border: 1px solid var(--border);
+
+padding: 12px;
+
+border-radius: 8px;
+
+min-width: 140px;
+
+text-align: center;
+
+transition: .2s;
+```
+
+}
+
+.inventory-item:hover {
+
+```
+transform: scale(1.03);
+```
+
+}
