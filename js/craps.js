@@ -232,7 +232,7 @@ function winCraps(resultDiv, roll) {
 const payout =
     crapsBet * 2;
 
-gameState.money += payout;
+gameState.money += applyWin(payout);
 
 gameState.stats.wins++;
 
