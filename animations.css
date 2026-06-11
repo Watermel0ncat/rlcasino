@@ -1,0 +1,332 @@
+/* ==========================
+FADE IN
+========================== */
+
+@keyframes fadeIn {
+
+```
+from {
+
+    opacity: 0;
+}
+
+to {
+
+    opacity: 1;
+}
+```
+
+}
+
+.fade-in {
+
+```
+animation: fadeIn .4s ease;
+```
+
+}
+
+/* ==========================
+FLOAT UP
+========================== */
+
+@keyframes floatUp {
+
+```
+from {
+
+    opacity: 1;
+
+    transform:
+        translateY(0);
+}
+
+to {
+
+    opacity: 0;
+
+    transform:
+        translateY(-40px);
+}
+```
+
+}
+
+.float-up {
+
+```
+animation:
+    floatUp 1.5s forwards;
+```
+
+}
+
+/* ==========================
+CARD FLIP
+========================== */
+
+@keyframes cardFlip {
+
+```
+0% {
+
+    transform:
+        rotateY(0deg);
+}
+
+100% {
+
+    transform:
+        rotateY(180deg);
+}
+```
+
+}
+
+.card-flip {
+
+```
+animation:
+    cardFlip .5s ease;
+```
+
+}
+
+/* ==========================
+WIN GLOW
+========================== */
+
+@keyframes winGlow {
+
+```
+0% {
+
+    box-shadow:
+        0 0 0px var(--green);
+}
+
+50% {
+
+    box-shadow:
+        0 0 20px var(--green);
+}
+
+100% {
+
+    box-shadow:
+        0 0 0px var(--green);
+}
+```
+
+}
+
+.win-glow {
+
+```
+animation:
+    winGlow 1s ease;
+```
+
+}
+
+/* ==========================
+SHAKE
+========================== */
+
+@keyframes shake {
+
+```
+0% {
+
+    transform:
+        translateX(0);
+}
+
+25% {
+
+    transform:
+        translateX(-5px);
+}
+
+50% {
+
+    transform:
+        translateX(5px);
+}
+
+75% {
+
+    transform:
+        translateX(-5px);
+}
+
+100% {
+
+    transform:
+        translateX(0);
+}
+```
+
+}
+
+.shake {
+
+```
+animation:
+    shake .35s ease;
+```
+
+}
+
+/* ==========================
+PULSE
+========================== */
+
+@keyframes pulse {
+
+```
+0% {
+
+    transform:
+        scale(1);
+}
+
+50% {
+
+    transform:
+        scale(1.08);
+}
+
+100% {
+
+    transform:
+        scale(1);
+}
+```
+
+}
+
+.pulse {
+
+```
+animation:
+    pulse .4s ease;
+```
+
+}
+
+/* ==========================
+MONEY POPUP
+========================== */
+
+.money-popup {
+
+```
+position: absolute;
+
+font-size: 1.4rem;
+
+font-weight: bold;
+
+pointer-events: none;
+
+z-index: 9999;
+```
+
+}
+
+.money-win {
+
+```
+color: #3ddc84;
+```
+
+}
+
+.money-loss {
+
+```
+color: #ff5c5c;
+```
+
+}
+
+/* ==========================
+ROULETTE SPIN
+========================== */
+
+@keyframes rouletteSpin {
+
+```
+from {
+
+    transform:
+        rotate(0deg);
+}
+
+to {
+
+    transform:
+        rotate(1440deg);
+}
+```
+
+}
+
+.roulette-spin {
+
+```
+animation:
+    rouletteSpin 4s ease-out;
+```
+
+}
+
+/* ==========================
+DICE ROLL
+========================== */
+
+@keyframes diceRoll {
+
+```
+0% {
+
+    transform:
+        rotate(0deg);
+}
+
+25% {
+
+    transform:
+        rotate(90deg);
+}
+
+50% {
+
+    transform:
+        rotate(180deg);
+}
+
+75% {
+
+    transform:
+        rotate(270deg);
+}
+
+100% {
+
+    transform:
+        rotate(360deg);
+}
+```
+
+}
+
+.dice-roll {
+
+```
+animation:
+    diceRoll .7s ease;
+```
+
+}
