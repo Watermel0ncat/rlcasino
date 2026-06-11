@@ -177,7 +177,7 @@ itemPool.forEach(item => {
 
         ...item,
 
-        price: finalPrice
+        
     });
 });
 
