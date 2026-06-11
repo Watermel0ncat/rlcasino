@@ -198,7 +198,7 @@ log("Save copied to clipboard.");
 
 */
 
-function nextDay() {
+window.nextDay = function() {
 
 ```
 gameState.day++;
