@@ -344,3 +344,5 @@ window.gameState = gameState;
 window.addMoney = addMoney;
 window.saveGame = saveGame;
 window.loadGame = loadGame;
+window.updateUI = updateUI;
+window.log = log;
