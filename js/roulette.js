@@ -216,7 +216,7 @@ resultDiv.innerHTML = `
 
 if (win) {
 
-    gameState.money += payout;
+    gameState.money += applyWin(payout);
 
     gameState.stats.wins++;
 
