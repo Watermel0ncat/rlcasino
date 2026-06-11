@@ -442,7 +442,7 @@ let winnings =
         payoutMultiplier()
     );
 
-gameState.money += winnings;
+gameState.money += applyWin(winnings);
 
 gameState.stats.wins++;
 
