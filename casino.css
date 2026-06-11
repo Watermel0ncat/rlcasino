@@ -1,0 +1,250 @@
+/* ==========================
+CASINO PANEL
+========================== */
+
+#casino-panel {
+
+```
+min-height: 500px;
+```
+
+}
+
+#casino-content {
+
+```
+margin-top: 20px;
+
+background: #141923;
+
+border: 1px solid var(--border);
+
+border-radius: 10px;
+
+padding: 20px;
+
+min-height: 250px;
+```
+
+}
+
+/* ==========================
+GAME CARDS
+========================== */
+
+.game-card {
+
+```
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+padding: 15px;
+
+margin-bottom: 10px;
+
+background: #1d2433;
+
+border-radius: 8px;
+```
+
+}
+
+.game-card:hover {
+
+```
+background: #263047;
+```
+
+}
+
+/* ==========================
+BETTING UI
+========================== */
+
+.bet-controls {
+
+```
+display: flex;
+
+gap: 10px;
+
+margin-top: 15px;
+
+margin-bottom: 15px;
+```
+
+}
+
+.bet-controls input {
+
+```
+background: #101218;
+
+color: white;
+
+border: 1px solid var(--border);
+
+padding: 10px;
+
+width: 140px;
+```
+
+}
+
+.bet-controls button {
+
+```
+background: var(--gold);
+
+color: black;
+
+border: none;
+
+padding: 10px 16px;
+
+cursor: pointer;
+
+font-weight: bold;
+```
+
+}
+
+/* ==========================
+CARD DISPLAY
+========================== */
+
+.card-area {
+
+```
+display: flex;
+
+gap: 10px;
+
+flex-wrap: wrap;
+
+margin-top: 15px;
+```
+
+}
+
+.playing-card {
+
+```
+width: 80px;
+
+height: 120px;
+
+border-radius: 8px;
+
+background: white;
+
+color: black;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+font-size: 1.5rem;
+
+font-weight: bold;
+
+box-shadow: 0 0 10px rgba(0,0,0,.4);
+```
+
+}
+
+/* ==========================
+ROULETTE TABLE
+========================== */
+
+.roulette-grid {
+
+```
+display: grid;
+
+grid-template-columns:
+    repeat(12, 1fr);
+
+gap: 5px;
+
+margin-top: 20px;
+```
+
+}
+
+.roulette-number {
+
+```
+background: #1d2433;
+
+border: 1px solid var(--border);
+
+padding: 10px;
+
+text-align: center;
+
+cursor: pointer;
+```
+
+}
+
+.roulette-number.red {
+
+```
+background: #8b1e1e;
+```
+
+}
+
+.roulette-number.black {
+
+```
+background: #111;
+```
+
+}
+
+/* ==========================
+DICE DISPLAY
+========================== */
+
+.dice-container {
+
+```
+display: flex;
+
+gap: 20px;
+
+margin-top: 20px;
+```
+
+}
+
+.die {
+
+```
+width: 100px;
+
+height: 100px;
+
+background: white;
+
+color: black;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+font-size: 2rem;
+
+border-radius: 10px;
+```
+
+}
