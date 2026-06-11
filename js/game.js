@@ -130,67 +130,6 @@ buttons.forEach(button => {
 
 # /*
 
-# SAVE SYSTEM
-
-*/
-
-function saveGame() {
-
-```
-localStorage.setItem(
-    "mdmc-save",
-    JSON.stringify(gameState)
-);
-
-log("Game Saved.");
-```
-
-}
-
-function loadGame() {
-
-```
-const data =
-    localStorage.getItem("mdmc-save");
-
-if (!data) {
-
-    log("No save found.");
-    return;
-}
-
-Object.assign(
-    gameState,
-    JSON.parse(data)
-);
-
-updateUI();
-
-log("Game Loaded.");
-```
-
-}
-
-# /*
-
-# EXPORT SAVE
-
-*/
-
-function exportSave() {
-
-```
-const saveString =
-    JSON.stringify(gameState);
-
-navigator.clipboard.writeText(
-    saveString
-);
-
-log("Save copied to clipboard.");
-```
-
-}
 
 # /*
 
@@ -342,7 +281,5 @@ init();
 
 window.gameState = gameState;
 window.addMoney = addMoney;
-window.saveGame = saveGame;
-window.loadGame = loadGame;
 window.updateUI = updateUI;
 window.log = log;
